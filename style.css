@@ -13,6 +13,8 @@ body {
     font-size: 40px;
     text-align: center;
     background: white;
+    background-image: url("header_back.jpg");
+    background-size: cover;
 }
 
 .row {
@@ -36,12 +38,16 @@ body {
      margin-top: 20px;
 }
 
+.card:hover {
+     border: 2px solid black;
+}
 
 .img {
     background-color: #aaa;
     padding: 20px;
     background-size: cover;
     background-position: bottom;
+    background-image: url("img1.jpg");
 }
 
 i {
@@ -57,7 +63,7 @@ a {
 .footer {
     padding: 20px;
     text-align: center;
-    background: #ddd;
+    background: url("avatar.jpg");
     margin-top: 20px;
 }
 
@@ -102,4 +108,6 @@ a {
 .close:hover { 
     background: #fed138; 
 }
+
+
 
